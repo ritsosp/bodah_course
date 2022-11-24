@@ -1,9 +1,11 @@
 body{
-    width:960px;
+    width:800px;
     margin: 0 auto;
-    color: #005e85;
+    /*color: #005e85;*/
+
     font-family: 'Roboto', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.0em;
+    line-height: 1.4;
 }
 
 
@@ -12,11 +14,10 @@ body{
   font-weight: bold;  
 }
 
-/* iframe {
-    margin: 0 auto;
+iframe {
+    margin: 2em auto;
     display:block
-} */
-
+} 
 
 .sectionEnd{
     display: block; 
@@ -60,10 +61,10 @@ a:hover {color: #0099ff; border-bottom: 0px dotted #0099ff;}
 
 
 /* OTHER */
-h1 {font-size: 1.4em; padding-bottom: 3px; border-bottom: #005e85 2px solid;}
-h2 {font-size: 1.1em; color: #505050;}
-h3 {font-size: 1.0em; color: #505050}
-h4 {font-size: 0.9em; color: #505050}
+h1 {font-size: 1.4em; margin: 2em 0 1em 0; padding-bottom: 3px; border-bottom: #005e85 2px solid; color: #005e85;}
+h2 {font-size: 1.1em; margin: 2em 0 1em 0; color: #505050;}
+h3 {font-size: 1.0em; margin: 2em 0 1em 0; color: #505050}
+h4 {font-size: 0.9em; margin: 2em 0 1em 0; color: #505050}
 
 
 section {
@@ -89,4 +90,23 @@ aside > p {
 
 .smallBuble {
   width: 20%;
+}
+
+
+
+figure {text-align: center;
+  margin: 0 auto;
+  width: 800px;
+}
+
+
+figcaption {
+  margin-top: 1em;
+  font-size: 0.8em;
+  width: 800px;
+}
+
+.smallFont {
+  font-size: 0.7em;
+
 }
