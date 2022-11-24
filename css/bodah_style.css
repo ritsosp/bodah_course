@@ -61,10 +61,15 @@ a:hover {color: #0099ff; border-bottom: 0px dotted #0099ff;}
 
 
 /* OTHER */
-h1 {font-size: 1.4em; margin: 2em 0 1em 0; padding-bottom: 3px; border-bottom: #005e85 2px solid; color: #005e85;}
-h2 {font-size: 1.1em; margin: 2em 0 1em 0; color: #505050;}
-h3 {font-size: 1.0em; margin: 2em 0 1em 0; color: #505050}
-h4 {font-size: 0.9em; margin: 2em 0 1em 0; color: #505050}
+h1 {font-size: 2em; margin: 2em 0 1em 0; color: #005e85;}
+
+h2 {font-size: 1.4em; margin: 2em 0 1em 0; padding-bottom: 3px; border-bottom: #005e85 2px solid; color: #005e85;}
+
+h2 {font-size: 1.4em; margin: 2em 0 1em 0; padding-bottom: 3px; border-left: #005e85 2em solid; padding-left: 0.3em; color: #005e85;}
+
+h3 {font-size: 1.2em; margin: 2em 0 1em 0; color: #505050;}
+h4 {font-size: 1.0em; margin: 2em 0 1em 0; color: #505050}
+
 
 
 section {
@@ -78,7 +83,8 @@ aside {
   padding: 1rem;
   margin: 0 0 0 1rem ;
   float: right;
-  box-shadow: inset 5px 0 5px -5px #29627e;
+  border-left: #5DADE2 5px solid;
+  /*box-shadow: inset 5px 0 5px -5px #29627e;*/
   font-style: italic;
   color: #29627e;
   background-color: aliceblue;
@@ -93,8 +99,32 @@ aside > p {
 }
 
 
+.questionBox
+{
+  width: 90%;
+  padding: 0.5em;
+  margin: 1em auto;
+  /*box-shadow: inset 5px 0 5px -5px #29627e;*/
+  border-left: #45B39D 5px solid;
+  font-style: italic;
+  color: #0E6655;
+  background-color: #E8F6F3;
 
-figure {text-align: center;
+}
+
+.questionBoxHeader
+{
+font-size: 1em;
+font-weight: bold;
+  font-style: italic;
+  color: #0E6655;
+  display: block;
+
+
+}
+
+
+figure {
   margin: 0 auto;
   width: 800px;
 }
@@ -108,5 +138,14 @@ figcaption {
 
 .smallFont {
   font-size: 0.7em;
+
+}
+
+
+.pdfEmbed {
+
+  width: 640px;
+  margin: 2em auto;
+  border: #29627e solid 1px;
 
 }
