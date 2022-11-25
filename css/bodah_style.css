@@ -5,7 +5,7 @@ body{
 
     font-family: 'Roboto', sans-serif;
     font-size: 1.0em;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 
@@ -15,7 +15,7 @@ body{
 }
 
 iframe {
-    margin: 2em auto;
+    margin: 1em auto;
     display:block
 } 
 
@@ -63,14 +63,18 @@ a:hover {color: #0099ff; border-bottom: 0px dotted #0099ff;}
 /* OTHER */
 h1 {font-size: 2em; margin: 2em 0 1em 0; color: #005e85;}
 
-h2 {font-size: 1.4em; margin: 2em 0 1em 0; padding-bottom: 3px; border-bottom: #005e85 2px solid; color: #005e85;}
+/*h2 {font-size: 1.4em; margin: 2em 0 1em 0; padding-bottom: 3px; border-bottom: #005e85 2px solid; color: #005e85;}*/
 
-h2 {font-size: 1.4em; margin: 2em 0 1em 0; padding-bottom: 3px; border-left: #005e85 2em solid; padding-left: 0.3em; color: #005e85;}
+h2 {font-size: 1.4em; margin: 2em 0 1em 0; padding-bottom: 3px; border-left: #005e85 2em solid; padding-left: 0.3em; color: #005e85; border-bottom: #005e85 2px solid; margin-left: -2em;}
 
 h3 {font-size: 1.2em; margin: 2em 0 1em 0; color: #505050;}
 h4 {font-size: 1.0em; margin: 2em 0 1em 0; color: #505050}
 
 
+.secNo {
+  margin: 0 2em 0 -1.5em;
+  color: aliceblue;
+}
 
 section {
     margin-bottom: 3em;
@@ -103,7 +107,7 @@ aside > p {
 {
   width: 90%;
   padding: 0.5em;
-  margin: 1em auto;
+  margin: 2em auto;
   /*box-shadow: inset 5px 0 5px -5px #29627e;*/
   border-left: #45B39D 5px solid;
   font-style: italic;
@@ -125,7 +129,7 @@ font-weight: bold;
 
 
 figure {
-  margin: 0 auto;
+  margin: 3em auto;
   width: 800px;
 }
 
@@ -144,8 +148,14 @@ figcaption {
 
 .pdfEmbed {
 
-  width: 640px;
+  width: 100%;
   margin: 2em auto;
   border: #29627e solid 1px;
 
+}
+
+
+.iframeSpacer {
+  margin-top:2em;
+  margin-bottom: 3em;
 }
